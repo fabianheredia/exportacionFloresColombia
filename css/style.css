@@ -1,26 +1,26 @@
-.hero.is-info {
-    background-color: #203fee;
-    color: #fff;
+@media screen and (max-width: 425px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .grafico {
+        height: 900px;
+        width: 400px;
+    }
 }
 
-.line {
-    fill: none;
-    stroke: #ffab00;
-    stroke-width: 3;
-}
-  
-.overlay {
-  fill: none;
-  pointer-events: all;
-}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: brown;
+    }
 
-/* Style the dots by assigning a fill and stroke */
-.dot {
-    fill: #ffab00;
-    stroke: #fff;
+    .grafico {
+        height: 900px;
+        width: 600px
+    }
 }
-  
-  .focus circle {
-  fill: none;
-  stroke: steelblue;
-}
+/* 
+.grafico {
+    height: 1200px;
+    width: 900px
+} */
