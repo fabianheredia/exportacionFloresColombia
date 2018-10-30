@@ -189,7 +189,8 @@
         },
         {
             "Pais": "Croacia",
-            "Cantidad": 5.97
+            "Cantidad": 5.97,
+            "tipo": "destino"
         },
         {
             "Pais": "Curazao",
@@ -203,7 +204,8 @@
         },
         {
             "Pais": "Egipto",
-            "Cantidad": 0.07
+            "Cantidad": 0.07,
+            "tipo": "destino"
         },
         {
             "Pais": "El Salvador",
@@ -562,1266 +564,1237 @@
         }
     ],
     "links": [{
-            "origen": "Antioquia",
-            "destino": "Alemania",
-            "Exportacion": 0.04
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Arabia Saudita",
-            "Exportacion": 0.82
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Argentina",
-            "Exportacion": 28.49
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Australia",
-            "Exportacion": 638.2
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Bahamas",
-            "Exportacion": 0
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Bahrein",
-            "Exportacion": 0.97
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Canadá",
-            "Exportacion": 1858.51
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Chile",
-            "Exportacion": 2596.01
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "China",
-            "Exportacion": 1.3
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Corea",
-            "Exportacion": 1.05
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Costa Rica",
-            "Exportacion": 9.9
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Curazao",
-            "Exportacion": 7
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Ecuador",
-            "Exportacion": 9.3
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "El Salvador",
-            "Exportacion": 4.4
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Emiratos Árabes Unidos",
-            "Exportacion": 9.81
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "España",
-            "Exportacion": 1.13
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Estados Unidos",
-            "Exportacion": 39497.77
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Francia",
-            "Exportacion": 2.62
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Guadalupe",
-            "Exportacion": 3.17
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Guam",
-            "Exportacion": 0.08
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Hong Kong",
-            "Exportacion": 0.01
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "India",
-            "Exportacion": 2.04
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Indonesia",
-            "Exportacion": 0.01
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Italia",
-            "Exportacion": 0.13
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Jamaica",
-            "Exportacion": 0.15
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Japón",
-            "Exportacion": 31.71
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Kazajstán",
-            "Exportacion": 0.03
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Kuwait",
-            "Exportacion": 0.57
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Países Bajos",
-            "Exportacion": 33.4
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Panamá",
-            "Exportacion": 70.66
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Polonia",
-            "Exportacion": 1.51
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Puerto Rico",
-            "Exportacion": 109.18
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Qatar",
-            "Exportacion": 0.68
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Reino Unido",
-            "Exportacion": 4665.35
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "República Dominicana",
-            "Exportacion": 1.08
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Rusia- Federación de",
-            "Exportacion": 9.83
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Singapur",
-            "Exportacion": 0.23
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Suiza",
-            "Exportacion": 0.02
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Taiwán- Provincia de China",
-            "Exportacion": 1.01
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Trinidad y Tobago",
-            "Exportacion": 16.62
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Ucrania",
-            "Exportacion": 0
-        },
-        {
-            "origen": "Antioquia",
-            "destino": "Uruguay",
-            "Exportacion": 16.22
-        },
-        {
-            "origen": "Atlantico",
-            "destino": "Curazao",
-            "Exportacion": 245.42
-        },
-        {
-            "origen": "Atlantico",
-            "destino": "Estados Unidos",
-            "Exportacion": 16.5
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Alemania",
-            "Exportacion": 188.25
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Arabia Saudita",
-            "Exportacion": 0.35
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Argentina",
-            "Exportacion": 134.68
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Aruba",
-            "Exportacion": 16.94
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Australia",
-            "Exportacion": 483.2
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Austria",
-            "Exportacion": 7.61
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Azerbaiyán",
-            "Exportacion": 2.05
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Bahrein",
-            "Exportacion": 32.73
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Belarús",
-            "Exportacion": 103.61
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Bélgica",
-            "Exportacion": 0.09
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Belice",
-            "Exportacion": 2.33
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Bolivia",
-            "Exportacion": 1.02
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Brasil",
-            "Exportacion": 707.54
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Canadá",
-            "Exportacion": 2333.73
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Chile",
-            "Exportacion": 148.34
-        },
-        {
-            "origen": "Bogota",
-            "destino": "China",
-            "Exportacion": 86.4
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Chipre",
-            "Exportacion": 0.13
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Corea",
-            "Exportacion": 97.45
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Costa Rica",
-            "Exportacion": 7.18
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Curazao",
-            "Exportacion": 75.76
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Ecuador",
-            "Exportacion": 227.62
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Egipto",
-            "Exportacion": 0.07
-        },
-        {
-            "origen": "Bogota",
-            "destino": "El Salvador",
-            "Exportacion": 1.59
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Emiratos Árabes Unidos",
-            "Exportacion": 11.37
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Eslovaquia",
-            "Exportacion": 4.23
-        },
-        {
-            "origen": "Bogota",
-            "destino": "España",
-            "Exportacion": 2112.37
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Estados Unidos",
-            "Exportacion": 96201.18
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Estonia",
-            "Exportacion": 16
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Etiopia",
-            "Exportacion": 1.76
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Filipinas",
-            "Exportacion": 7.62
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Finlandia",
-            "Exportacion": 14.83
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Francia",
-            "Exportacion": 135.89
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Grecia",
-            "Exportacion": 0.71
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Guadalupe",
-            "Exportacion": 11.94
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Guam",
-            "Exportacion": 5.57
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Guatemala",
-            "Exportacion": 1.03
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Guayana Francesa",
-            "Exportacion": 0.53
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Honduras",
-            "Exportacion": 0.09
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Hong Kong",
-            "Exportacion": 1.58
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Hungría",
-            "Exportacion": 37.22
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Indonesia",
-            "Exportacion": 0.02
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Irlanda",
-            "Exportacion": 30.92
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Israel",
-            "Exportacion": 8.08
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Italia",
-            "Exportacion": 328.23
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Jamaica",
-            "Exportacion": 34.78
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Japón",
-            "Exportacion": 4330.81
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Kazajstán",
-            "Exportacion": 112.72
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Kenia",
-            "Exportacion": 1.93
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Kuwait",
-            "Exportacion": 90.1
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Letonia",
-            "Exportacion": 202.62
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Líbano",
-            "Exportacion": 0.01
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Lituania",
-            "Exportacion": 19.45
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Macedonia",
-            "Exportacion": 0.64
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Malasia",
-            "Exportacion": 1.2
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Marruecos",
-            "Exportacion": 0.91
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Martinica",
-            "Exportacion": 26.3
-        },
-        {
-            "origen": "Bogota",
-            "destino": "México",
-            "Exportacion": 5.13
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Noruega",
-            "Exportacion": 69.22
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Nueva Zelandia",
-            "Exportacion": 55.25
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Países Bajos",
-            "Exportacion": 2630.9
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Panamá",
-            "Exportacion": 1083.6
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Perú",
-            "Exportacion": 3.53
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Polonia",
-            "Exportacion": 902.3
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Portugal",
-            "Exportacion": 13.4
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Puerto Rico",
-            "Exportacion": 170.47
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Qatar",
-            "Exportacion": 10.69
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Reino Unido",
-            "Exportacion": 3046.03
-        },
-        {
-            "origen": "Bogota",
-            "destino": "República Checa",
-            "Exportacion": 374.83
-        },
-        {
-            "origen": "Bogota",
-            "destino": "República Dominicana",
-            "Exportacion": 31.77
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Rumania",
-            "Exportacion": 159.16
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Rusia- Federación de",
-            "Exportacion": 2926.4
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Serbia",
-            "Exportacion": 1.63
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Singapur",
-            "Exportacion": 9.42
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Sudáfrica",
-            "Exportacion": 0
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Suecia",
-            "Exportacion": 47.95
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Suiza",
-            "Exportacion": 60.49
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Taiwán- Provincia de China",
-            "Exportacion": 59.38
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Trinidad y Tobago",
-            "Exportacion": 14.02
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Turquía",
-            "Exportacion": 0.28
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Ucrania",
-            "Exportacion": 111.19
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Uruguay",
-            "Exportacion": 4.83
-        },
-        {
-            "origen": "Bogota",
-            "destino": "Vírgenes (británicas)- Islas",
-            "Exportacion": 7.17
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Bolivar",
-            "destino": "Chile",
-            "Exportacion": 29.84
-        },
-        {
-            "origen": "Bolivar",
-            "destino": "España",
-            "Exportacion": 220.71
-        },
-        {
-            "origen": "Bolivar",
-            "destino": "Estados Unidos",
-            "Exportacion": 57.45
-        },
-        {
-            "origen": "Bolivar",
-            "destino": "Países Bajos",
-            "Exportacion": 7.49
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Corea",
-            "Exportacion": 0.04
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Ecuador",
-            "Exportacion": 1.82
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "España",
-            "Exportacion": 0.2
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Estados Unidos",
-            "Exportacion": 1
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Japón",
-            "Exportacion": 78.71
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Países Bajos",
-            "Exportacion": 10.2
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Reino Unido",
-            "Exportacion": 1.35
-        },
-        {
-            "origen": "Boyaca",
-            "destino": "Rusia- Federación de",
-            "Exportacion": 1.09
-        },
-        {
-            "origen": "Caldas",
-            "destino": "Aruba",
-            "Exportacion": 7.33
-        },
-        {
-            "origen": "Caldas",
-            "destino": "Países Bajos",
-            "Exportacion": 1.72
-        },
-        {
-            "origen": "Caldas",
-            "destino": "Suiza",
-            "Exportacion": 3.2
-        },
+        "source": "Antioquia",
+        "target": "Alemania",
+        "Exportacion": 0.04
+    },
+    {
+        "source": "Antioquia",
+        "target": "Arabia Saudita",
+        "Exportacion": 0.82
+    },
+    {
+        "source": "Antioquia",
+        "target": "Argentina",
+        "Exportacion": 28.49
+    },
+    {
+        "source": "Antioquia",
+        "target": "Australia",
+        "Exportacion": 638.2
+    },
+    {
+        "source": "Antioquia",
+        "target": "Bahamas",
+        "Exportacion": 0
+    },
+    {
+        "source": "Antioquia",
+        "target": "Bahrein",
+        "Exportacion": 0.97
+    },
+    {
+        "source": "Antioquia",
+        "target": "Canadá",
+        "Exportacion": 1858.51
+    },
+    {
+        "source": "Antioquia",
+        "target": "Chile",
+        "Exportacion": 2596.01
+    },
+    {
+        "source": "Antioquia",
+        "target": "China",
+        "Exportacion": 1.3
+    },
+    {
+        "source": "Antioquia",
+        "target": "Corea",
+        "Exportacion": 1.05
+    },
+    {
+        "source": "Antioquia",
+        "target": "Costa Rica",
+        "Exportacion": 9.9
+    },
+    {
+        "source": "Antioquia",
+        "target": "Curazao",
+        "Exportacion": 7
+    },
+    {
+        "source": "Antioquia",
+        "target": "Ecuador",
+        "Exportacion": 9.3
+    },
+    {
+        "source": "Antioquia",
+        "target": "El Salvador",
+        "Exportacion": 4.4
+    },
+    {
+        "source": "Antioquia",
+        "target": "Emiratos Árabes Unidos",
+        "Exportacion": 9.81
+    },
+    {
+        "source": "Antioquia",
+        "target": "España",
+        "Exportacion": 1.13
+    },
+    {
+        "source": "Antioquia",
+        "target": "Estados Unidos",
+        "Exportacion": 39497.77
+    },
+    {
+        "source": "Antioquia",
+        "target": "Francia",
+        "Exportacion": 2.62
+    },
+    {
+        "source": "Antioquia",
+        "target": "Guadalupe",
+        "Exportacion": 3.17
+    },
+    {
+        "source": "Antioquia",
+        "target": "Guam",
+        "Exportacion": 0.08
+    },
+    {
+        "source": "Antioquia",
+        "target": "Hong Kong",
+        "Exportacion": 0.01
+    },
+    {
+        "source": "Antioquia",
+        "target": "India",
+        "Exportacion": 2.04
+    },
+    {
+        "source": "Antioquia",
+        "target": "Indonesia",
+        "Exportacion": 0.01
+    },
+    {
+        "source": "Antioquia",
+        "target": "Italia",
+        "Exportacion": 0.13
+    },
+    {
+        "source": "Antioquia",
+        "target": "Jamaica",
+        "Exportacion": 0.15
+    },
+    {
+        "source": "Antioquia",
+        "target": "Japón",
+        "Exportacion": 31.71
+    },
+    {
+        "source": "Antioquia",
+        "target": "Kazajstán",
+        "Exportacion": 0.03
+    },
+    {
+        "source": "Antioquia",
+        "target": "Kuwait",
+        "Exportacion": 0.57
+    },
+    {
+        "source": "Antioquia",
+        "target": "Países Bajos",
+        "Exportacion": 33.4
+    },
+    {
+        "source": "Antioquia",
+        "target": "Panamá",
+        "Exportacion": 70.66
+    },
+    {
+        "source": "Antioquia",
+        "target": "Polonia",
+        "Exportacion": 1.51
+    },
+    {
+        "source": "Antioquia",
+        "target": "Puerto Rico",
+        "Exportacion": 109.18
+    },
+    {
+        "source": "Antioquia",
+        "target": "Qatar",
+        "Exportacion": 0.68
+    },
+    {
+        "source": "Antioquia",
+        "target": "Reino Unido",
+        "Exportacion": 4665.35
+    },
+    {
+        "source": "Antioquia",
+        "target": "República Dominicana",
+        "Exportacion": 1.08
+    },
+    {
+        "source": "Antioquia",
+        "target": "Rusia- Federación de",
+        "Exportacion": 9.83
+    },
+    {
+        "source": "Antioquia",
+        "target": "Singapur",
+        "Exportacion": 0.23
+    },
+    {
+        "source": "Antioquia",
+        "target": "Suiza",
+        "Exportacion": 0.02
+    },
+    {
+        "source": "Antioquia",
+        "target": "Taiwán- Provincia de China",
+        "Exportacion": 1.01
+    },
+    {
+        "source": "Antioquia",
+        "target": "Trinidad y Tobago",
+        "Exportacion": 16.62
+    },
+    {
+        "source": "Antioquia",
+        "target": "Ucrania",
+        "Exportacion": 0
+    },
+    {
+        "source": "Antioquia",
+        "target": "Uruguay",
+        "Exportacion": 16.22
+    },
+    {
+        "source": "Atlantico",
+        "target": "Curazao",
+        "Exportacion": 245.42
+    },
+    {
+        "source": "Atlantico",
+        "target": "Estados Unidos",
+        "Exportacion": 16.5
+    },
 
-        {
-            "origen": "Cordoba",
-            "destino": "Curazao",
-            "Exportacion": 20
-        },
-        {
-            "origen": "Cordoba",
-            "destino": "Rusia- Federación de",
-            "Exportacion": 0.03
-        },
+    {
+        "source": "Bogota",
+        "target": "Alemania",
+        "Exportacion": 188.25
+    },
+    {
+        "source": "Bogota",
+        "target": "Arabia Saudita",
+        "Exportacion": 0.35
+    },
+    {
+        "source": "Bogota",
+        "target": "Argentina",
+        "Exportacion": 134.68
+    },
+    {
+        "source": "Bogota",
+        "target": "Aruba",
+        "Exportacion": 16.94
+    },
+    {
+        "source": "Bogota",
+        "target": "Australia",
+        "Exportacion": 483.2
+    },
+    {
+        "source": "Bogota",
+        "target": "Austria",
+        "Exportacion": 7.61
+    },
+    {
+        "source": "Bogota",
+        "target": "Azerbaiyán",
+        "Exportacion": 2.05
+    },
+    {
+        "source": "Bogota",
+        "target": "Bahrein",
+        "Exportacion": 32.73
+    },
+    {
+        "source": "Bogota",
+        "target": "Belarús",
+        "Exportacion": 103.61
+    },
+    {
+        "source": "Bogota",
+        "target": "Bélgica",
+        "Exportacion": 0.09
+    },
+    {
+        "source": "Bogota",
+        "target": "Belice",
+        "Exportacion": 2.33
+    },
+    {
+        "source": "Bogota",
+        "target": "Bolivia",
+        "Exportacion": 1.02
+    },
+    {
+        "source": "Bogota",
+        "target": "Brasil",
+        "Exportacion": 707.54
+    },
+    {
+        "source": "Bogota",
+        "target": "Canadá",
+        "Exportacion": 2333.73
+    },
+    {
+        "source": "Bogota",
+        "target": "Chile",
+        "Exportacion": 148.34
+    },
+    {
+        "source": "Bogota",
+        "target": "China",
+        "Exportacion": 86.4
+    },
+    {
+        "source": "Bogota",
+        "target": "Chipre",
+        "Exportacion": 0.13
+    },
+    {
+        "source": "Bogota",
+        "target": "Corea",
+        "Exportacion": 97.45
+    },
+    {
+        "source": "Bogota",
+        "target": "Costa Rica",
+        "Exportacion": 7.18
+    },
+    {
+        "source": "Bogota",
+        "target": "Curazao",
+        "Exportacion": 75.76
+    },
+    {
+        "source": "Bogota",
+        "target": "Ecuador",
+        "Exportacion": 227.62
+    },
+    {
+        "source": "Bogota",
+        "target": "Egipto",
+        "Exportacion": 0.07
+    },
+    {
+        "source": "Bogota",
+        "target": "El Salvador",
+        "Exportacion": 1.59
+    },
+    {
+        "source": "Bogota",
+        "target": "Emiratos Árabes Unidos",
+        "Exportacion": 11.37
+    },
+    {
+        "source": "Bogota",
+        "target": "Eslovaquia",
+        "Exportacion": 4.23
+    },
+    {
+        "source": "Bogota",
+        "target": "España",
+        "Exportacion": 2112.37
+    },
+    {
+        "source": "Bogota",
+        "target": "Estados Unidos",
+        "Exportacion": 96201.18
+    },
+    {
+        "source": "Bogota",
+        "target": "Estonia",
+        "Exportacion": 16
+    },
+    {
+        "source": "Bogota",
+        "target": "Etiopia",
+        "Exportacion": 1.76
+    },
+    {
+        "source": "Bogota",
+        "target": "Filipinas",
+        "Exportacion": 7.62
+    },
+    {
+        "source": "Bogota",
+        "target": "Finlandia",
+        "Exportacion": 14.83
+    },
+    {
+        "source": "Bogota",
+        "target": "Francia",
+        "Exportacion": 135.89
+    },
+    {
+        "source": "Bogota",
+        "target": "Grecia",
+        "Exportacion": 0.71
+    },
+    {
+        "source": "Bogota",
+        "target": "Guadalupe",
+        "Exportacion": 11.94
+    },
+    {
+        "source": "Bogota",
+        "target": "Guam",
+        "Exportacion": 5.57
+    },
+    {
+        "source": "Bogota",
+        "target": "Guatemala",
+        "Exportacion": 1.03
+    },
+    {
+        "source": "Bogota",
+        "target": "Guayana Francesa",
+        "Exportacion": 0.53
+    },
+    {
+        "source": "Bogota",
+        "target": "Honduras",
+        "Exportacion": 0.09
+    },
+    {
+        "source": "Bogota",
+        "target": "Hong Kong",
+        "Exportacion": 1.58
+    },
+    {
+        "source": "Bogota",
+        "target": "Hungría",
+        "Exportacion": 37.22
+    },
+    {
+        "source": "Bogota",
+        "target": "Indonesia",
+        "Exportacion": 0.02
+    },
+    {
+        "source": "Bogota",
+        "target": "Irlanda",
+        "Exportacion": 30.92
+    },
+    {
+        "source": "Bogota",
+        "target": "Israel",
+        "Exportacion": 8.08
+    },
+    {
+        "source": "Bogota",
+        "target": "Italia",
+        "Exportacion": 328.23
+    },
+    {
+        "source": "Bogota",
+        "target": "Jamaica",
+        "Exportacion": 34.78
+    },
+    {
+        "source": "Bogota",
+        "target": "Japón",
+        "Exportacion": 4330.81
+    },
+    {
+        "source": "Bogota",
+        "target": "Kazajstán",
+        "Exportacion": 112.72
+    },
+    {
+        "source": "Bogota",
+        "target": "Kenia",
+        "Exportacion": 1.93
+    },
+    {
+        "source": "Bogota",
+        "target": "Kuwait",
+        "Exportacion": 90.1
+    },
+    {
+        "source": "Bogota",
+        "target": "Letonia",
+        "Exportacion": 202.62
+    },
+    {
+        "source": "Bogota",
+        "target": "Líbano",
+        "Exportacion": 0.01
+    },
+    {
+        "source": "Bogota",
+        "target": "Lituania",
+        "Exportacion": 19.45
+    },
+    {
+        "source": "Bogota",
+        "target": "Macedonia",
+        "Exportacion": 0.64
+    },
+    {
+        "source": "Bogota",
+        "target": "Malasia",
+        "Exportacion": 1.2
+    },
+    {
+        "source": "Bogota",
+        "target": "Marruecos",
+        "Exportacion": 0.91
+    },
+    {
+        "source": "Bogota",
+        "target": "Martinica",
+        "Exportacion": 26.3
+    },
+    {
+        "source": "Bogota",
+        "target": "México",
+        "Exportacion": 5.13
+    },
+    {
+        "source": "Bogota",
+        "target": "Noruega",
+        "Exportacion": 69.22
+    },
+    {
+        "source": "Bogota",
+        "target": "Nueva Zelandia",
+        "Exportacion": 55.25
+    },
+    {
+        "source": "Bogota",
+        "target": "Países Bajos",
+        "Exportacion": 2630.9
+    },
+    {
+        "source": "Bogota",
+        "target": "Panamá",
+        "Exportacion": 1083.6
+    },
+    {
+        "source": "Bogota",
+        "target": "Perú",
+        "Exportacion": 3.53
+    },
+    {
+        "source": "Bogota",
+        "target": "Polonia",
+        "Exportacion": 902.3
+    },
+    {
+        "source": "Bogota",
+        "target": "Portugal",
+        "Exportacion": 13.4
+    },
+    {
+        "source": "Bogota",
+        "target": "Puerto Rico",
+        "Exportacion": 170.47
+    },
+    {
+        "source": "Bogota",
+        "target": "Qatar",
+        "Exportacion": 10.69
+    },
+    {
+        "source": "Bogota",
+        "target": "Reino Unido",
+        "Exportacion": 3046.03
+    },
+    {
+        "source": "Bogota",
+        "target": "República Checa",
+        "Exportacion": 374.83
+    },
+    {
+        "source": "Bogota",
+        "target": "República Dominicana",
+        "Exportacion": 31.77
+    },
+    {
+        "source": "Bogota",
+        "target": "Rumania",
+        "Exportacion": 159.16
+    },
+    {
+        "source": "Bogota",
+        "target": "Rusia- Federación de",
+        "Exportacion": 2926.4
+    },
+    {
+        "source": "Bogota",
+        "target": "Serbia",
+        "Exportacion": 1.63
+    },
+    {
+        "source": "Bogota",
+        "target": "Singapur",
+        "Exportacion": 9.42
+    },
+    {
+        "source": "Bogota",
+        "target": "Sudáfrica",
+        "Exportacion": 0
+    },
+    {
+        "source": "Bogota",
+        "target": "Suecia",
+        "Exportacion": 47.95
+    },
+    {
+        "source": "Bogota",
+        "target": "Suiza",
+        "Exportacion": 60.49
+    },
+    {
+        "source": "Bogota",
+        "target": "Taiwán- Provincia de China",
+        "Exportacion": 59.38
+    },
+    {
+        "source": "Bogota",
+        "target": "Trinidad y Tobago",
+        "Exportacion": 14.02
+    },
+    {
+        "source": "Bogota",
+        "target": "Turquía",
+        "Exportacion": 0.28
+    },
+    {
+        "source": "Bogota",
+        "target": "Ucrania",
+        "Exportacion": 111.19
+    },
+    {
+        "source": "Bogota",
+        "target": "Uruguay",
+        "Exportacion": 4.83
+    },
+    {
+        "source": "Bogota",
+        "target": "Vírgenes (británicas)- Islas",
+        "Exportacion": 7.17
+    },
    
-        {
-            "origen": "Cundinamarca",
-            "destino": "Alemania",
-            "Exportacion": 231.85
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Antigua y Barbuda",
-            "Exportacion": 0.23
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Arabia Saudita",
-            "Exportacion": 8.34
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Argentina",
-            "Exportacion": 119.96
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Aruba",
-            "Exportacion": 51.91
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Australia",
-            "Exportacion": 420.88
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Austria",
-            "Exportacion": 63.1
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Azerbaiyán",
-            "Exportacion": 2.86
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Bahrein",
-            "Exportacion": 44.37
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Belarús",
-            "Exportacion": 23.91
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Bélgica",
-            "Exportacion": 5.96
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Belice",
-            "Exportacion": 0.07
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Bolivia",
-            "Exportacion": 0.05
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Brasil",
-            "Exportacion": 306.32
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Caimán- Islas",
-            "Exportacion": 0.99
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Canadá",
-            "Exportacion": 2481.82
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Chile",
-            "Exportacion": 200.25
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "China",
-            "Exportacion": 37.14
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Chipre",
-            "Exportacion": 0.28
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Corea",
-            "Exportacion": 157.64
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Corea- República Democrática",
-            "Exportacion": 0.07
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Costa Rica",
-            "Exportacion": 0.35
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Croacia",
-            "Exportacion": 5.97
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Curazao",
-            "Exportacion": 62.47
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Ecuador",
-            "Exportacion": 89.72
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Emiratos Árabes Unidos",
-            "Exportacion": 32.9
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Eslovaquia",
-            "Exportacion": 100.64
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Eslovenia",
-            "Exportacion": 6.23
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "España",
-            "Exportacion": 1478.24
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Estados Unidos",
-            "Exportacion": 35614.58
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Estonia",
-            "Exportacion": 6.23
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Finlandia",
-            "Exportacion": 89.32
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Francia",
-            "Exportacion": 113.27
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Guadalupe",
-            "Exportacion": 54.08
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Guam",
-            "Exportacion": 8.87
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Guatemala",
-            "Exportacion": 1.08
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Hong Kong",
-            "Exportacion": 0.26
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Hungría",
-            "Exportacion": 39.01
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "India",
-            "Exportacion": 0.22
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Indonesia",
-            "Exportacion": 1.9
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Israel",
-            "Exportacion": 75.9
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Italia",
-            "Exportacion": 323.85
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Jamaica",
-            "Exportacion": 62.24
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Japón",
-            "Exportacion": 3802.79
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Kazajstán",
-            "Exportacion": 181.75
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Kirguistan",
-            "Exportacion": 0.2
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Kuwait",
-            "Exportacion": 103.85
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Letonia",
-            "Exportacion": 207.62
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Lituania",
-            "Exportacion": 34.37
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Macedonia",
-            "Exportacion": 0.2
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Malasia",
-            "Exportacion": 0.09
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Maldivas",
-            "Exportacion": 2.13
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Martinica",
-            "Exportacion": 11.32
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "México",
-            "Exportacion": 2.8
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Moldavia- República de",
-            "Exportacion": 0.02
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Noruega",
-            "Exportacion": 0.09
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Nueva Zelandia",
-            "Exportacion": 90.59
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Países Bajos",
-            "Exportacion": 2665.04
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Panamá",
-            "Exportacion": 367.62
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Perú",
-            "Exportacion": 0.45
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Polonia",
-            "Exportacion": 932.36
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Portugal",
-            "Exportacion": 69.46
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Puerto Rico",
-            "Exportacion": 458.37
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Qatar",
-            "Exportacion": 6.06
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Reino Unido",
-            "Exportacion": 2870.5
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "República Checa",
-            "Exportacion": 452.95
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "República Dominicana",
-            "Exportacion": 67.57
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Rumania",
-            "Exportacion": 57.28
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Rusia- Federación de",
-            "Exportacion": 2207.9
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Santa Lucia",
-            "Exportacion": 0.41
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Seychelles",
-            "Exportacion": 1.42
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Singapur",
-            "Exportacion": 7.64
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Sudáfrica",
-            "Exportacion": 1.44
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Suecia",
-            "Exportacion": 75.85
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Suiza",
-            "Exportacion": 139.62
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Tailandia",
-            "Exportacion": 0.89
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Taiwán- Provincia de China",
-            "Exportacion": 73.75
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Tayikistán",
-            "Exportacion": 2.49
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Trinidad y Tobago",
-            "Exportacion": 132.82
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Turkmenistán",
-            "Exportacion": 0.27
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Ucrania",
-            "Exportacion": 503.49
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Uruguay",
-            "Exportacion": 20.84
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Vietnam",
-            "Exportacion": 0.96
-        },
-        {
-            "origen": "Cundinamarca",
-            "destino": "Vírgenes (británicas)- Islas",
-            "Exportacion": 1.24
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Magdalena",
-            "destino": "Reino Unido",
-            "Exportacion": 23.44
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Quindio",
-            "destino": "Estados Unidos",
-            "Exportacion": 3.01
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Risaralda",
-            "destino": "Emiratos Árabes Unidos",
-            "Exportacion": 0.16
-        },
-        {
-            "origen": "Risaralda",
-            "destino": "Estados Unidos",
-            "Exportacion": 7.35
-        },
-        {
-            "origen": "Risaralda",
-            "destino": "Países Bajos",
-            "Exportacion": 0.03
-        },
-        {
-            "origen": "Risaralda",
-            "destino": "Reino Unido",
-            "Exportacion": 0.01
-        },
-        {
-            "origen": "",
-            "destino": "",
-            "Exportacion": ""
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Alemania",
-            "Exportacion": 7.35
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Australia",
-            "Exportacion": 0.02
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Canadá",
-            "Exportacion": 0.08
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Chile",
-            "Exportacion": 692.27
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Curazao",
-            "Exportacion": 0.19
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Ecuador",
-            "Exportacion": 0.27
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Estados Unidos",
-            "Exportacion": 6.3
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Italia",
-            "Exportacion": 0.14
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Japón",
-            "Exportacion": 257.64
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Países Bajos",
-            "Exportacion": 16.58
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Sudáfrica",
-            "Exportacion": 0.09
-        },
-        {
-            "origen": "Valle del Cauca",
-            "destino": "Suiza",
-            "Exportacion": 5.59
-        }
-    ]
+    {
+        "source": "Bolivar",
+        "target": "Chile",
+        "Exportacion": 29.84
+    },
+    {
+        "source": "Bolivar",
+        "target": "España",
+        "Exportacion": 220.71
+    },
+    {
+        "source": "Bolivar",
+        "target": "Estados Unidos",
+        "Exportacion": 57.45
+    },
+    {
+        "source": "Bolivar",
+        "target": "Países Bajos",
+        "Exportacion": 7.49
+    },
+
+    {
+        "source": "Boyaca",
+        "target": "Corea",
+        "Exportacion": 0.04
+    },
+    {
+        "source": "Boyaca",
+        "target": "Ecuador",
+        "Exportacion": 1.82
+    },
+    {
+        "source": "Boyaca",
+        "target": "España",
+        "Exportacion": 0.2
+    },
+    {
+        "source": "Boyaca",
+        "target": "Estados Unidos",
+        "Exportacion": 1
+    },
+    {
+        "source": "Boyaca",
+        "target": "Japón",
+        "Exportacion": 78.71
+    },
+    {
+        "source": "Boyaca",
+        "target": "Países Bajos",
+        "Exportacion": 10.2
+    },
+    {
+        "source": "Boyaca",
+        "target": "Reino Unido",
+        "Exportacion": 1.35
+    },
+    {
+        "source": "Boyaca",
+        "target": "Rusia- Federación de",
+        "Exportacion": 1.09
+    },
+    {
+        "source": "Caldas",
+        "target": "Aruba",
+        "Exportacion": 7.33
+    },
+    {
+        "source": "Caldas",
+        "target": "Países Bajos",
+        "Exportacion": 1.72
+    },
+    {
+        "source": "Caldas",
+        "target": "Suiza",
+        "Exportacion": 3.2
+    },
+
+    {
+        "source": "Cordoba",
+        "target": "Curazao",
+        "Exportacion": 20
+    },
+    {
+        "source": "Cordoba",
+        "target": "Rusia- Federación de",
+        "Exportacion": 0.03
+    },
+
+    {
+        "source": "Cundinamarca",
+        "target": "Alemania",
+        "Exportacion": 231.85
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Antigua y Barbuda",
+        "Exportacion": 0.23
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Arabia Saudita",
+        "Exportacion": 8.34
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Argentina",
+        "Exportacion": 119.96
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Aruba",
+        "Exportacion": 51.91
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Australia",
+        "Exportacion": 420.88
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Austria",
+        "Exportacion": 63.1
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Azerbaiyán",
+        "Exportacion": 2.86
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Bahrein",
+        "Exportacion": 44.37
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Belarús",
+        "Exportacion": 23.91
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Bélgica",
+        "Exportacion": 5.96
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Belice",
+        "Exportacion": 0.07
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Bolivia",
+        "Exportacion": 0.05
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Brasil",
+        "Exportacion": 306.32
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Caimán- Islas",
+        "Exportacion": 0.99
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Canadá",
+        "Exportacion": 2481.82
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Chile",
+        "Exportacion": 200.25
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "China",
+        "Exportacion": 37.14
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Chipre",
+        "Exportacion": 0.28
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Corea",
+        "Exportacion": 157.64
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Corea- República Democrática",
+        "Exportacion": 0.07
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Costa Rica",
+        "Exportacion": 0.35
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Croacia",
+        "Exportacion": 5.97
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Curazao",
+        "Exportacion": 62.47
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Ecuador",
+        "Exportacion": 89.72
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Emiratos Árabes Unidos",
+        "Exportacion": 32.9
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Eslovaquia",
+        "Exportacion": 100.64
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Eslovenia",
+        "Exportacion": 6.23
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "España",
+        "Exportacion": 1478.24
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Estados Unidos",
+        "Exportacion": 35614.58
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Estonia",
+        "Exportacion": 6.23
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Finlandia",
+        "Exportacion": 89.32
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Francia",
+        "Exportacion": 113.27
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Guadalupe",
+        "Exportacion": 54.08
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Guam",
+        "Exportacion": 8.87
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Guatemala",
+        "Exportacion": 1.08
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Hong Kong",
+        "Exportacion": 0.26
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Hungría",
+        "Exportacion": 39.01
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "India",
+        "Exportacion": 0.22
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Indonesia",
+        "Exportacion": 1.9
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Israel",
+        "Exportacion": 75.9
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Italia",
+        "Exportacion": 323.85
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Jamaica",
+        "Exportacion": 62.24
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Japón",
+        "Exportacion": 3802.79
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Kazajstán",
+        "Exportacion": 181.75
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Kirguistan",
+        "Exportacion": 0.2
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Kuwait",
+        "Exportacion": 103.85
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Letonia",
+        "Exportacion": 207.62
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Lituania",
+        "Exportacion": 34.37
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Macedonia",
+        "Exportacion": 0.2
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Malasia",
+        "Exportacion": 0.09
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Maldivas",
+        "Exportacion": 2.13
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Martinica",
+        "Exportacion": 11.32
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "México",
+        "Exportacion": 2.8
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Moldavia- República de",
+        "Exportacion": 0.02
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Noruega",
+        "Exportacion": 0.09
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Nueva Zelandia",
+        "Exportacion": 90.59
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Países Bajos",
+        "Exportacion": 2665.04
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Panamá",
+        "Exportacion": 367.62
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Perú",
+        "Exportacion": 0.45
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Polonia",
+        "Exportacion": 932.36
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Portugal",
+        "Exportacion": 69.46
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Puerto Rico",
+        "Exportacion": 458.37
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Qatar",
+        "Exportacion": 6.06
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Reino Unido",
+        "Exportacion": 2870.5
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "República Checa",
+        "Exportacion": 452.95
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "República Dominicana",
+        "Exportacion": 67.57
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Rumania",
+        "Exportacion": 57.28
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Rusia- Federación de",
+        "Exportacion": 2207.9
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Santa Lucia",
+        "Exportacion": 0.41
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Seychelles",
+        "Exportacion": 1.42
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Singapur",
+        "Exportacion": 7.64
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Sudáfrica",
+        "Exportacion": 1.44
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Suecia",
+        "Exportacion": 75.85
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Suiza",
+        "Exportacion": 139.62
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Tailandia",
+        "Exportacion": 0.89
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Taiwán- Provincia de China",
+        "Exportacion": 73.75
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Tayikistán",
+        "Exportacion": 2.49
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Trinidad y Tobago",
+        "Exportacion": 132.82
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Turkmenistán",
+        "Exportacion": 0.27
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Ucrania",
+        "Exportacion": 503.49
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Uruguay",
+        "Exportacion": 20.84
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Vietnam",
+        "Exportacion": 0.96
+    },
+    {
+        "source": "Cundinamarca",
+        "target": "Vírgenes (británicas)- Islas",
+        "Exportacion": 1.24
+    },
+  
+    {
+        "source": "Magdalena",
+        "target": "Reino Unido",
+        "Exportacion": 23.44
+    },
+ 
+    {
+        "source": "Quindio",
+        "target": "Estados Unidos",
+        "Exportacion": 3.01
+    },
+
+    {
+        "source": "Risaralda",
+        "target": "Emiratos Árabes Unidos",
+        "Exportacion": 0.16
+    },
+    {
+        "source": "Risaralda",
+        "target": "Estados Unidos",
+        "Exportacion": 7.35
+    },
+    {
+        "source": "Risaralda",
+        "target": "Países Bajos",
+        "Exportacion": 0.03
+    },
+    {
+        "source": "Risaralda",
+        "target": "Reino Unido",
+        "Exportacion": 0.01
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Alemania",
+        "Exportacion": 7.35
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Australia",
+        "Exportacion": 0.02
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Canadá",
+        "Exportacion": 0.08
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Chile",
+        "Exportacion": 692.27
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Curazao",
+        "Exportacion": 0.19
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Ecuador",
+        "Exportacion": 0.27
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Estados Unidos",
+        "Exportacion": 6.3
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Italia",
+        "Exportacion": 0.14
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Japón",
+        "Exportacion": 257.64
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Países Bajos",
+        "Exportacion": 16.58
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Sudáfrica",
+        "Exportacion": 0.09
+    },
+    {
+        "source": "Valle del Cauca",
+        "target": "Suiza",
+        "Exportacion": 5.59
+    }
+]
 }

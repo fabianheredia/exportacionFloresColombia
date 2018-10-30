@@ -33,14 +33,13 @@ let r = 4,
   color = d3.scaleOrdinal(d3.schemeCategory10),
   color2 = d3.scaleOrdinal(d3.schemeCategory10),
   widthScale = d3.scaleLinear().range([0, width - margin.left - margin.right]),
-  heightScale = d3.scaleLinear().range([0, height - margin.top - margin.bottom]),
-  exportacionScale = d3.scaleLinear().range([1, 10]);
-
+  heightScale = d3.scaleLinear().range([0, height - margin.top - margin.bottom]);
+ 
 
 var simulation = d3.forceSimulation()
   .force("link", d3.forceLink().id(function (d) {
-    return d.Nombre;
-  }).distance(3))
+    return d.Pais;
+  }).distance(6))
   .force("collide", d3.forceCollide(r + 3))
   .force("charge", d3.forceManyBody().strength(-20))
 
@@ -75,11 +74,11 @@ var simulation = d3.forceSimulation()
       }
     }));
 //get Data
-//const _urlData = "https://github.com/fabianheredia/exportacionFloresColombia/blob/master/data/data.json";
-const _urlData = "/data/data.json";
+const _urlData = "https://github.com/fabianheredia/exportacionFloresColombia/blob/master/data/data.json";
+//const _urlData = "/data/data.json";
 d3.json(_urlData).then(datos => {
-
-
+  // d3.json(_urlData, function(error, datos) {
+  //   if (error) throw error;
 
   var minYear = Number(d3.min(datos.nodes, d => {
     if (d.tipo == "origen") {
@@ -199,16 +198,16 @@ d3.json(_urlData).then(datos => {
   function ticked() {
     link
       .attr("x1", function (d) {
-        return d.origen.x;
+        return d.source.x;
       })
       .attr("y1", function (d) {
-        return d.origen.y;
+        return d.source.y;
       })
       .attr("x2", function (d) {
-        return d.destino.x;
+        return d.target.x;
       })
       .attr("y2", function (d) {
-        return d.destino.y;
+        return d.target.y;
       });
 
     node.merge(nodeEnter)
@@ -228,7 +227,7 @@ d3.json(_urlData).then(datos => {
 
   var linkedByIndex = {};
   datos.links.forEach(function (d) {
-    linkedByIndex[d.origen.Pais + "," + d.destino.Pais] = true;
+    linkedByIndex[d.source.Pais + "," + d.target.Pais] = true;
   });
 
   function isConnected(a, b) {
@@ -251,13 +250,13 @@ d3.json(_urlData).then(datos => {
       })
     link
       .attr("stroke-width", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_width : default_stroke_width;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_stroke_width : default_stroke_width;
       })
       .style("stroke", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_color : default_stroke_color;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_color : default_stroke_color;
       })
       .attr("stroke-opacity", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_opacity : default_stroke_opacity;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_stroke_opacity : default_stroke_opacity;
       });
   }
 
@@ -294,15 +293,15 @@ d3.json(_urlData).then(datos => {
 
     link
       .attr("stroke-width", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_width : default_stroke_width;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_stroke_width : default_stroke_width;
       })
 
       .style("stroke", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_color : default_stroke_color;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_color : default_stroke_color;
       })
 
       .attr("stroke-opacity", function (o) {
-        return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_opacity : highlight_trans;
+        return o.source.Pais == d.Pais || o.target.Pais == d.Pais ? highlight_stroke_opacity : highlight_trans;
       });
   }
 
@@ -337,7 +336,7 @@ d3.json(_urlData).then(datos => {
   }
 
   function dragstarted(d) {
-    if (!d3.event.active) simulation.alphadestino(0.3).restart();
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
 
@@ -352,7 +351,7 @@ d3.json(_urlData).then(datos => {
   }
 
   function dragended(d) {
-    if (!d3.event.active) simulation.alphadestino(0);
+    if (!d3.event.active) simulation.alphaTarget(0); 
     d.fx = null;
     d.fy = null;
 
