@@ -1,6 +1,6 @@
 # Exportacion de Flores Colombia al Mundo
 
- Analisis de las exportaciones de flores de los departamentos de colombia a los diferentes paices del mundo.
+ Analisis de las exportaciones de flores de los departamentos de colombia a los diferentes Países del mundo.
 
 
          # Como Instalar
@@ -19,7 +19,7 @@ ejecutar la aplicación desde el explorador
 
 # **_Insight:_** :shipit:
  * Bogotá, Cundinamarca y Antioquia son los lugrares que mas flores exportaron en Colombia para el periodo de 2017.
- * Exieten algunos paices que solo consumen flores de un solo lugar, como Bahamas que solo importa flores de Antioquia o Tailandia que solo importa flores de Bogotá.
+ * Exieten algunos Países que solo consumen flores de un solo lugar, como Bahamas que solo importa flores de Antioquia o Tailandia que solo importa flores de Bogotá.
  * el departemento del Magdalena solo exporto flores al Reino Unido.
        
 
@@ -51,7 +51,7 @@ _Attributes:_
 
 | item   |      Type      |  Description |
 |----------|:-------------:|------:|
-| Pais |  Categorical | departamentod de donde salen las flores y paices a donde llegan |
+| Pais |  Categorical | departamentod de donde salen las flores y Países a donde llegan |
 | Cantidad |   Ordered -> Quantitative -> Sequential   |  Cantidad de toneladas que se exportaron o importaron |
 | tipo | Ordered -> Ordinal  |   variable de orden para la grafica|
 
@@ -73,8 +73,8 @@ _Analyze -> Produce -> Derive
 # How
 | Encode | Manipulate | Facet | Reduce |
 | ---|---|---|---|
-|Express | Select |Superimpose| |
-|Separate Order Aling | select | Superimpose||
+|Express separate| Select |Superimpose| |
+
 
 
 
