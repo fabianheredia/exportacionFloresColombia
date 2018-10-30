@@ -12,15 +12,15 @@ var highlight_stroke_width = 3,
   default_stroke_opacity = 0.5,
   default_text_size = "15px",
 
-  width = 700,
-  height = 500,
+  width = 1200,
+  height = 800,
   margin = {
     top: 50,
     right: 20,
     bottom: 80,
     left: 20
   };
-var breaks = ["origen","destino"];
+var breaks = ["origen", "destino"];
 
 
 var svg = d3
@@ -30,40 +30,79 @@ var svg = d3
   .attr("height", height + margin.top + margin.bottom);
 var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 let r = 4,
-  color = d3.scaleOrdinal(d3.schemeCategory20),
-  color2 = d3.scaleOrdinal(d3.schemeCategory20),
+  color = d3.scaleOrdinal(d3.schemeCategory10),
+  color2 = d3.scaleOrdinal(d3.schemeCategory10),
   widthScale = d3.scaleLinear().range([0, width - margin.left - margin.right]),
   heightScale = d3.scaleLinear().range([0, height - margin.top - margin.bottom]),
-  exportacionScale = d3.scaleLinear().range([1,10]);
+  exportacionScale = d3.scaleLinear().range([1, 10]);
 
 
-  var simulation = d3.forceSimulation()
-  .force("link", d3.forceLink().id(d => {
-    return d.Pais;
+var simulation = d3.forceSimulation()
+  .force("link", d3.forceLink().id(function (d) {
+    return d.Nombre;
   }).distance(3))
   .force("collide", d3.forceCollide(r + 3))
   .force("charge", d3.forceManyBody().strength(-20))
 
   .force('x', d3.forceX()
-       .x((d,i) =>{                
-       console.log(widthScale(i));
-            return widthScale(i);
-        
-    }).strength(2))
-    .force('y', d3.forceY()
-    .y((d,i) => {                
-         return heightScale(i);
- }).strength(2));
+    .x(function (d) {
+      if (d.tipo == "origen") {
+        return widthScale(d.orden);
+      } else {
+        return (width);
+      }
+    }).strength(function (d) {
+      if (d.tipo == "origen") {
+        return 2;
+      } else {
+        return 0;
+      }
+    }))
+
+  .force('y', d3.forceY()
+    .y(function (d, i) {
+      if (d.tipo == "origen") {
+        return heightScale(d.Cantidad);
+      } else {
+        return (height);
+      }
+    }).strength(function (d) {
+
+      if (d.tipo == "origen") {
+        return 2;
+      } else {
+        return 0;
+      }
+    }));
 //get Data
 //const _urlData = "https://github.com/fabianheredia/exportacionFloresColombia/blob/master/data/data.json";
 const _urlData = "/data/data.json";
 d3.json(_urlData).then(datos => {
 
- 
-  widthScale.domain([0,200]).nice();
-  heightScale.domain([0,40]).nice();
 
-  console.log(datos);
+
+  var minYear = Number(d3.min(datos.nodes, d => {
+    if (d.tipo == "origen") {
+      return d.orden;
+    }
+  }));
+
+  var maxYear = Number(d3.max(datos.nodes, function (d) {
+    if (d.tipo == "origen") {
+      return d.orden;
+    }
+  })) + 1;
+  var maxexp = Number(d3.max(datos.nodes, function (d) {
+    return d.Cantidad;
+  }));
+  var minexp = Number(d3.min(datos.nodes, function (d) {
+    return d.Cantidad;
+  }));
+
+  widthScale.domain([minYear, maxYear]).nice();
+  heightScale.domain([minexp, maxexp]).nice();
+
+
   var link = g.append("g")
     .attr("class", "links")
     .selectAll("line")
@@ -78,10 +117,15 @@ d3.json(_urlData).then(datos => {
     .selectAll("circle")
     .data(datos.nodes);
 
-
   var nodeEnter = node.enter()
     .append("circle")
-    .attr("r",10);
+    .attr("r", function (d) {
+      if (d.tipo == "origen") {
+        return r * 1.5;
+      } else {
+        return r;
+      }
+    });
   node.merge(nodeEnter)
     .attr("stroke", "white")
     .attr("stroke-width", 0.5)
@@ -93,14 +137,28 @@ d3.json(_urlData).then(datos => {
       .on("drag", dragged)
       .on("end", dragended))
     .append("title")
-    .html(d=> d.Pais);
+    .html(function (d) {
+      if (d.tipo == "origen") {
+        return "Origen          : " + d.Pais + "<br>" +
+          "Cantidad Ton : " + d.Cantidad + "<br>";
+      } else {
+        return d.Pais;
+      }
+    });
 
   var text = g.selectAll(".text")
     .data(datos.nodes)
     .enter().append("text")
     .attr("dy", ".35em")
     .style("font-size", default_text_size)
-    .text(d=> d.Pais);
+    .text(function (d) {
+
+      if (d.tipo == "origen") {
+        return d.Pais;
+      } else {
+        return "";
+      }
+    });
 
   simulation
     .nodes(datos.nodes)
@@ -167,17 +225,6 @@ d3.json(_urlData).then(datos => {
       });
   }
 
-  g.append("g")
-    .attr("class", "axis")
-    .attr("transform", "translate(0," + (height * 0.85) + ")")
-    .style("font-size", default_text_size)
-    .call(d3.axisBottom(widthScale).ticks(null, "0"))
-    .append("text")
-    .attr("class", "axis_label")
-    .attr("transform", "translate(" + (0) + "," + 45 + ")")
-    .attr("font-weight", "bold")
-    .text("Año de Lanzamiento")
-    .attr("text-anchor", "start");
 
   var linkedByIndex = {};
   datos.links.forEach(function (d) {
@@ -188,31 +235,27 @@ d3.json(_urlData).then(datos => {
     return linkedByIndex[a.Pais + "," + b.Pais] || linkedByIndex[b.Pais + "," + a.Pais] || a.Pais == b.Pais;
   }
 
-  // node.merge(nodeEnter)
-  //   .on("mouseover", function (d) {
-  //     set_highlight(d);
-  //   })
-  //   .on("mouseout", function () {
-  //     exit_highlight();
-  //   });
+  node.merge(nodeEnter)
+    .on("mouseover", function (d) {
+      set_highlight(d);
+    })
+    .on("mouseout", function () {
+      exit_highlight();
+    });
 
   function set_highlight(d) {
     svg.style("cursor", "pointer");
-
     text
-      .style("font-weight", function (o) {
+      .style("font-weight", o=> {
         return isConnected(d, o) ? "bold" : "normal";
       })
-
     link
       .attr("stroke-width", function (o) {
         return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_width : default_stroke_width;
       })
-
       .style("stroke", function (o) {
         return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_color : default_stroke_color;
       })
-
       .attr("stroke-opacity", function (o) {
         return o.origen.Pais == d.Pais || o.destino.Pais == d.Pais ? highlight_stroke_opacity : default_stroke_opacity;
       });
@@ -244,9 +287,9 @@ d3.json(_urlData).then(datos => {
       })
 
       .text(function (o) {
-        
-          return o.Pais;
-        
+
+        return o.Pais;
+
       });
 
     link
@@ -263,30 +306,34 @@ d3.json(_urlData).then(datos => {
       });
   }
 
-  function exit_highlight() {
-    svg.style("cursor", "default");
+  function exit_highlight()
+  {
+      svg.style("cursor","default");
 
-    node.merge(nodeEnter)
-      .attr("fill-opacity", 1)
-      .attr("r", function (d) {
-        
-          return r;
-      
-      })
+      node.merge(nodeEnter)
+          .attr("fill-opacity", 1)
+          .attr("r", function (d) {                
+              if (d.tipo == "origen") {
+                  return r * 1.5;
+              } else {            
+                  return r;
+              }
+          })
 
-    text
-      .style("opacity", 1)
-      .style("font-weight", "normal")
-      .style("font-size", default_text_size)
-      .text(function (d) {
-        
-          return d.Pais;
-        
-      });
-    link
-      .attr("stroke-width", default_stroke_width)
-      .style("stroke", default_stroke_color)
-      .attr("stroke-opacity", default_stroke_opacity);
+      text
+          .style("opacity", 1)
+          .style("font-weight", "normal")
+          .style("font-size", default_text_size)
+          .text(function(d) {
+              if (d.tipo == "origen") {
+                  return d.Pais;
+              } else {            
+                  return "";
+              }});    
+      link                
+          .attr("stroke-width", default_stroke_width)
+          .style("stroke", default_stroke_color)
+          .attr("stroke-opacity",default_stroke_opacity);   
   }
 
   function dragstarted(d) {
