@@ -74,7 +74,7 @@ var simulation = d3.forceSimulation()
       }
     }));
 //get Data
-const _urlData = "https://github.com/fabianheredia/exportacionFloresColombia/blob/master/data/data.json";
+const _urlData = "https://fabianheredia.github.io/exportacionFloresColombia/data/data.json";
 //const _urlData = "/data/data.json";
 d3.json(_urlData).then(datos => {
   // d3.json(_urlData, function(error, datos) {
